@@ -35,7 +35,7 @@ app.set('view engine', 'jade');
 //general
 app.use(favicon(__dirname + '/app/site/public/images/favicon.ico'));
 app.use(logger('dev'));
-app.use(multer({ dest: './app/site/public/uploads' }))
+app.use(multer({ dest: './browser/uploads' }))
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -79,7 +79,7 @@ app.use(function (req, res, next) {
 });
 
 // pipeline
-app.use(express.static(path.join(__dirname, '/app/public')));
+app.use(express.static(path.join(__dirname, '/browser')));
 app.use('/bower_components',  express.static(__dirname + '/bower_components'));
 
 //routes

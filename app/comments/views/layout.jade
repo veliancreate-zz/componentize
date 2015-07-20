@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/css/bundle.css')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js')
+  body  
+    main.container
+      != messages()
+      block content                   
+
+    script(src='/js/scripts/bundle.js')

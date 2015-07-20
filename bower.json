@@ -13,14 +13,15 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "latest",
     "angular": "latest",
+    "angular-messages": "latest",
     "angular-resource": "latest",
     "angular-route": "latest",
-    "modernizr": "latest",
-    "underscore": "latest",
-    "angular-messages": "latest",
     "bootstrap": "latest",
-    "react": "latest"
+    "jquery": "latest",
+    "marked": "~0.3.3",
+    "modernizr": "latest",
+    "react": "latest",
+    "underscore": "latest"
   }
 }

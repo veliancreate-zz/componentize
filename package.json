@@ -20,6 +20,7 @@
     "express-session": "^1.10.0",
     "express-validator": "*",
     "jade": "*",
+    "jsonfile": "^2.2.1",
     "mongodb": "*",
     "mongoose": "*",
     "morgan": "~1.5.1",
